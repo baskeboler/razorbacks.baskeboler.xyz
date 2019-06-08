@@ -5,7 +5,6 @@ cover: /assets/razorbacks3.jpg
 slug: algunas-fotos
 category: culture
 ---
-
 # algunas fotos
 
 ## en brasil
@@ -21,3 +20,7 @@ category: culture
 ![en la via](/assets/razorbacks1.jpg)
 
 despues busco más.
+
+![](/assets/cuchi1.jpg)
+
+![](/assets/tren1.jpg)
