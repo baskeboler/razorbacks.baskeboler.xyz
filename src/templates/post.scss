@@ -2,7 +2,8 @@
 $phone-status-bar-height: 24px - 12px;
 
 .post-page {
-    display: flex;
+    display: block;
+    // display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -42,7 +43,8 @@ $phone-status-bar-height: 24px - 12px;
     }
 
     .post {
-        display: flex;
+        display: block;
+        // display: flex;
         flex-direction: column;
         justify-content: center;
 
