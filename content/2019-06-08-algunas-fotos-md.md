@@ -5,8 +5,15 @@ cover: /assets/header-logo.png
 slug: algunas-fotos
 category: culture
 ---
+# algunas fotos 
+
+## en brasil
 ![](/assets/razorbacks3.jpg "en brasil")
 
+## en el tren
 ![](/assets/razorbacks2.jpg)
 
+## en la via
 ![](/assets/razorbacks1.jpg)
+
+despues busco más.
