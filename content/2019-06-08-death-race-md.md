@@ -12,11 +12,11 @@ tags:
 
 <table>
   <thead>
-    <caption>play loud</caption>
+    <caption>PLAY LOUD</caption>
     <tr>
-      <th>track#</th>
-      <th>nombre </th>
-      <th>audio</th>
+      <th>Track#</th>
+      <th>Title </th>
+      <th>Audio</th>
     </tr>
   </thead>
   <tbody>

@@ -26,6 +26,13 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "redirects",
+        path: `${__dirname}/_redirects`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "assets",
         path: `${__dirname}/static/assets/`
       }
@@ -131,17 +138,18 @@ module.exports = {
         background_color: "#e0e0e0",
         theme_color: "#c62828",
         display: "minimal-ui",
-        icons: [{
-            src: "/logos/logo-192.png",
-            sizes: "192x192",
-            type: "image/png"
-          },
-          {
-            src: "/logos/logo-512.png",
-            sizes: "512x512",
-            type: "image/png"
-          }
-        ]
+        // icons: [{
+        //     src: "/logos/logo-192.png",
+        //     sizes: "192x192",
+        //     type: "image/png"
+        //   },
+        //   {
+        //     src: "/logos/logo-512.png",
+        //     sizes: "512x512",
+        //     type: "image/png"
+        //   }
+        // ]
+        icon: `static/assets/deathrace.jpg`
       }
     },
     "gatsby-plugin-offline",

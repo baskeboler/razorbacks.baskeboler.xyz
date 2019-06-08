@@ -6,7 +6,7 @@ function GetNavList(config) {
   const NavList = [
     {
       primaryText: "Home",
-      leftIcon: <FontIcon>home</FontIcon>,
+      leftIcon: <FontIcon forceSize>home</FontIcon>,
       component: Link,
       to: "/"
     },
