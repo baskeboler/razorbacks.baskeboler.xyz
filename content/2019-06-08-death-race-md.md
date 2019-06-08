@@ -1,7 +1,7 @@
 ---
 title: Death Race
 date: 2019-06-08T07:11:46.637Z
-cover: /assets/razorbacks2.jpg
+cover: /assets/deathrace.jpg
 category: culture
 tags:
   - razorbacks

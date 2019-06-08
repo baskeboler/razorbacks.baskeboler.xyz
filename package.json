@@ -4,8 +4,11 @@
   "version": "2.0.0",
   "author": "Victor Gil <yo@baskeboler.xyz>",
   "dependencies": {
+    "@material-ui/core": "^4.0.2",
+    "@material-ui/icons": "^4.0.1",
     "font-awesome": "^4.7.0",
     "gatsby": "^2.8.6",
+    "gatsby-background-image": "^0.7.0",
     "gatsby-image": "^2.1.2",
     "gatsby-plugin-catch-links": "^2.0.15",
     "gatsby-plugin-feed": "^2.2.3",
@@ -31,6 +34,7 @@
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.21",
+    "immutable": "^4.0.0-rc.12",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "netlify-cms": "^2.9.1",
@@ -44,6 +48,7 @@
     "react-share": "^2.4.0",
     "react-twitter-widgets": "^1.7.1",
     "react-youtube": "^7.9.0",
+    "slate": "^0.47.4",
     "url-join": "^4.0.0",
     "video-react": "^0.13.7"
   },
@@ -59,8 +64,6 @@
     "prettier": "^1.18.2",
     "remark-cli": "^6.0.1",
     "remark-preset-lint-recommended": "^3.0.2",
-    "stylefmt": "^6.0.3",
-    "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0",
     "write-good": "^1.0.1"
   },
