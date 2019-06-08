@@ -52,6 +52,16 @@ module.exports = {
             resolve: "gatsby-remark-relative-images"
           },
           {
+            resolve: 'gatsby-remark-audio',
+            options: {
+              preload: 'auto',
+              loop: false,
+              controls: true,
+              muted: false,
+              autoplay: false
+            }
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 672
@@ -62,7 +72,7 @@ module.exports = {
           },
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers"
+          "gatsby-remark-autolink-headers",
         ]
       }
     },
