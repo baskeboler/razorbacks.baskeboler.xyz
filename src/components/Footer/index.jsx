@@ -29,14 +29,9 @@ class Footer extends Component {
             </Link>
           </div>
           <div className="admin">
-            <a href="/admin" target="_blank" >Admin</a>
-            {/* <h4>
-              Basado en{" "}
-              <a href="https://github.com/Vagr9K/gatsby-material-starter">
-                Gatsby Material Starter
-              </a>
-              .
-            </h4> */}
+            <a href="/admin" target="_blank">
+              Admin
+            </a>
           </div>
         </div>
       </footer>
