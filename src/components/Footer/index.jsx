@@ -28,14 +28,15 @@ class Footer extends Component {
               </Button>
             </Link>
           </div>
-          <div className="based-on">
-            <h4>
+          <div className="admin">
+            <a href="/admin" target="_blank" >Admin</a>
+            {/* <h4>
               Basado en{" "}
               <a href="https://github.com/Vagr9K/gatsby-material-starter">
                 Gatsby Material Starter
               </a>
               .
-            </h4>
+            </h4> */}
           </div>
         </div>
       </footer>
