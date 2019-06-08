@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-material",
-  "description": "GatsbyJS Material Blog theme.",
+  "name": "razorbacks-baskeboler-xyz",
+  "description": "Razorbacks site.",
   "version": "2.0.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "author": "Victor Gil <yo@baskeboler.xyz>",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^2.8.6",
