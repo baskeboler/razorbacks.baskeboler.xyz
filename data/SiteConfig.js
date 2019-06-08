@@ -2,7 +2,7 @@ const config = {
   siteTitle: "Razorbacks", // Site title.
   siteTitleShort: "Death Race", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Death Race", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteLogo: "/static/assets/deathrace.jpg", // Logo used for SEO and manifest.
   siteUrl: "https://razorbacks.baskeboler.xyz", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
