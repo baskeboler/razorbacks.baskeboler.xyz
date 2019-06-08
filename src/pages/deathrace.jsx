@@ -17,12 +17,28 @@ class DeathRacePage extends Component {
           <StaticQuery
             query={graphql`
               query {
-                file(relativePath: { eq: "deathrace-full.opus" }) {
-                  publicURL
+                allFile(filter: { sourceInstanceName: { eq: "audio" } }) {
+                  edges {
+                    node {
+                      id
+                      name
+                      absolutePath
+                      relativePath
+                      publicURL
+                    }
+                  }
                 }
               }
             `}
-            render={data => <audio src={data.file.publicURL} controls />}
+            render={data => (
+              <ul>
+                {data.allFile.edges.map(e => (
+                  <li>
+                    <audio src={e.node.publicURL} controls />
+                  </li>
+                ))}
+              </ul>
+            )}
           />
         </div>
       </Layout>
