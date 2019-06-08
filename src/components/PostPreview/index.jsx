@@ -51,7 +51,7 @@ class PostPreview extends Component {
             <MediaOverlay>
               <CardTitle title={postInfo.title}>
                 <Button raised secondary className="md-cell--right">
-                  Read
+                  Ver
                 </Button>
               </CardTitle>
             </MediaOverlay>

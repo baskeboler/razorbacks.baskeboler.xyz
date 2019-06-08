@@ -1,12 +1,11 @@
 ---
 title: "Introducing Gatsby Material Starter"
-cover: "starter-logo-1024.png"
+cover: "header-logo.png"
 category: "gatsby"
 tags:
-
-    - gatsby
-    - material
-    - starter
+  - gatsby
+  - material
+  - starter
 
 date: "2018-07-02"
 ---
