@@ -8,10 +8,9 @@ tags:
   - video
   - razorbacks
 ---
-\# clip 
+
+# clip
 
 Esto lo grabamos en Brasil en la casa de Dundi Yesomar con Sergio Caldas y los amigachos.
-
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lxJzSe8Wdp8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
