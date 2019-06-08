@@ -12,15 +12,6 @@ function GetNavList(config) {
     },
     {
       divider: true
-    },
-    {
-      primaryText: "Death Race",
-      leftIcon: <FontIcon>library_music</FontIcon>,
-      component: Link,
-      to: "/deathrace"
-    },
-    {
-      divider: true
     }
   ];
 
