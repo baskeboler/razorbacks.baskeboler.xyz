@@ -9,7 +9,7 @@ const config = {
   siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
-  siteGATrackingID: "", // Tracking code ID for google analytics.
+  siteGATrackingID: "UA-141731303-1", // Tracking code ID for google analytics.
   disqusShortname: "razorbacks-baskeboler-xyz", // Disqus shortname.
   postDefaultCategoryID: "Music", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
