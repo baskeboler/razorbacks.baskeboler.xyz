@@ -20,7 +20,7 @@ $phone-status-bar-height: 24px - 12px;
 .post-page-contents {
     justify-content: center;
     width: 100%;
-    max-width: 752px;
+    max-width: 1025px;
 
     .gatsby-resp-image-wrapper {
         z-index: 6 !important;
@@ -55,12 +55,12 @@ $phone-status-bar-height: 24px - 12px;
         .post-body {
             max-width: 100%;
 
-            > h1,
-            > h2,
-            > h3,
-            > h4,
-            > h5,
-            > h6 {
+            >h1,
+            >h2,
+            >h3,
+            >h4,
+            >h5,
+            >h6 {
                 margin-top: 30px;
                 margin-bottom: 10px !important;
             }
@@ -78,32 +78,32 @@ $phone-status-bar-height: 24px - 12px;
                 margin-bottom: 20px;
             }
 
-            table > thead > tr > th,
-            table > tbody > tr > th,
-            table > tfoot > tr > th {
+            table>thead>tr>th,
+            table>tbody>tr>th,
+            table>tfoot>tr>th {
                 text-align: left;
             }
 
-            table > thead > tr > th,
-            table > thead > tr > td,
-            table > tbody > tr > th,
-            table > tbody > tr > td,
-            table > tfoot > tr > th,
-            table > tfoot > tr > td {
+            table>thead>tr>th,
+            table>thead>tr>td,
+            table>tbody>tr>th,
+            table>tbody>tr>td,
+            table>tfoot>tr>th,
+            table>tfoot>tr>td {
                 padding: 10px;
                 line-height: 1.429;
             }
 
-            table > thead > tr > th {
+            table>thead>tr>th {
                 border-bottom: 2px solid rgba(0, 0, 0, 0.12);
                 font-weight: 700;
             }
 
-            table > tbody + tbody {
+            table>tbody+tbody {
                 border-top: 2px solid rgba(0, 0, 0, 0.12);
             }
 
-            table > tbody > tr > td {
+            table>tbody>tr>td {
                 border-bottom: 1px solid rgba(0, 0, 0, 0.12);
             }
 

@@ -1,7 +1,7 @@
 ---
 title: "Introducing Gatsby Material Starter"
 cover: "header-logo.png"
-category: "gatsby"
+category: "culture"
 tags:
   - gatsby
   - material

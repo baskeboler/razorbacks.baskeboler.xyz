@@ -11,7 +11,7 @@ const config = {
   siteFBAppID: "", // FB Application ID for using app insights
   siteGATrackingID: "UA-141731303-1", // Tracking code ID for google analytics.
   disqusShortname: "razorbacks-baskeboler-xyz", // Disqus shortname.
-  postDefaultCategoryID: "Music", // Default category for posts.
+  postDefaultCategoryID: "Culture", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "baskeboler", // Username to display in the author segment.
