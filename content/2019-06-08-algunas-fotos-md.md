@@ -16,14 +16,20 @@ tags:
 
 ## en el tren
 
-![en el tren](/assets/razorbacks2.jpg)
+![en el tren](/assets/razorbacks2.jpg "en el tren")
 
 ## en la via
 
-![en la via](/assets/razorbacks1.jpg)
+![en la via](/assets/razorbacks1.jpg "en la vía")
 
-despues busco más.
+## en radar
 
-![](/assets/cuchi1.jpg)
+![en radar](/assets/cuchi1.jpg "en radar")
 
-![](/assets/tren1.jpg)
+## en el mismo tren
+
+![en el mismo tren](/assets/tren1.jpg "en el mismo tren")
+
+## cachete
+
+![cachete](/assets/cachete1.jpg "cachete")
