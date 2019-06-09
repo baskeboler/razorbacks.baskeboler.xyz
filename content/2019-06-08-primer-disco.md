@@ -4,7 +4,7 @@ date: 2019-06-08T23:11:46.637Z
 cover: /assets/razorbacks-razorbacks.jpg
 slug: primer-disco
 description: first studio album
-category: albums
+category: razorbacks
 tags:
   - razorbacks
   - high-energy
