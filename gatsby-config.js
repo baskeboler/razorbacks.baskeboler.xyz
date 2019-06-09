@@ -1,4 +1,4 @@
-const urljoin = require("url-join");
+const urljoin = require("./src/utils/urljoin");
 const config = require("./data/SiteConfig");
 
 const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/;
@@ -25,76 +25,44 @@ module.exports = {
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
-      options: {
-        name: "redirects",
-        path: `${__dirname}/_redirects`
-      }
+      options: { name: "redirects", path: `${__dirname}/_redirects` }
     },
     {
       resolve: "gatsby-source-filesystem",
-      options: {
-        name: "assets",
-        path: `${__dirname}/static/assets/`
-      }
+      options: { name: "assets", path: `${__dirname}/static/assets/` }
     },
     {
       resolve: "gatsby-source-filesystem",
-      options: {
-
-        name: "audio",
-        path: `${__dirname}/static/audio`
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "posts",
-        path: `${__dirname}/content`
-      }
+      options: { name: "posts", path: `${__dirname}/content` }
     },
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [{
-            resolve: "gatsby-remark-relative-images"
-          },
+        plugins: [
+          { resolve: "gatsby-remark-relative-images" },
           {
-            resolve: 'gatsby-remark-audio',
+            resolve: "gatsby-remark-audio",
             options: {
-              preload: 'auto',
+              preload: "auto",
               loop: false,
               controls: true,
               muted: false,
               autoplay: false
             }
           },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 672
-            }
-          },
-          {
-            resolve: "gatsby-remark-responsive-iframe"
-          },
+          { resolve: "gatsby-remark-images", options: { maxWidth: 672 } },
+          { resolve: "gatsby-remark-responsive-iframe" },
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers",
+          "gatsby-remark-autolink-headers"
         ]
       }
     },
     {
       resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.siteGATrackingID
-      }
+      options: { trackingId: config.siteGATrackingID }
     },
-    {
-      resolve: "gatsby-plugin-nprogress",
-      options: {
-        color: "#c62828"
-      }
-    },
+    { resolve: "gatsby-plugin-nprogress", options: { color: "#c62828" } },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
@@ -178,28 +146,24 @@ module.exports = {
           }
         }
       `,
-        feeds: [{
-          serialize(ctx) {
-            const {
-              rssMetadata
-            } = ctx.query.site.siteMetadata;
-            return ctx.query.allMarkdownRemark.edges.map(edge => ({
-              categories: edge.node.frontmatter.tags,
-              date: edge.node.frontmatter.date,
-              title: edge.node.frontmatter.title,
-              description: edge.node.excerpt,
-              url: rssMetadata.site_url + edge.node.fields.slug,
-              guid: rssMetadata.site_url + edge.node.fields.slug,
-              custom_elements: [{
-                  "content:encoded": edge.node.html
-                },
-                {
-                  author: config.userEmail
-                }
-              ]
-            }));
-          },
-          query: `
+        feeds: [
+          {
+            serialize(ctx) {
+              const { rssMetadata } = ctx.query.site.siteMetadata;
+              return ctx.query.allMarkdownRemark.edges.map(edge => ({
+                categories: edge.node.frontmatter.tags,
+                date: edge.node.frontmatter.date,
+                title: edge.node.frontmatter.title,
+                description: edge.node.excerpt,
+                url: rssMetadata.site_url + edge.node.fields.slug,
+                guid: rssMetadata.site_url + edge.node.fields.slug,
+                custom_elements: [
+                  { "content:encoded": edge.node.html },
+                  { author: config.userEmail }
+                ]
+              }));
+            },
+            query: `
             {
               allMarkdownRemark(
                 limit: 1000,
@@ -223,8 +187,9 @@ module.exports = {
               }
             }
           `,
-          output: config.siteRss
-        }]
+            output: config.siteRss
+          }
+        ]
       }
     }
   ]

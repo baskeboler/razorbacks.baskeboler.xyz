@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
+import urljoin from "../../utils/urljoin";
 
 class SEO extends Component {
   render() {
@@ -79,7 +79,11 @@ class SEO extends Component {
 
         {/* OpenGraph tags */}
         <meta property="og:url" content={postSEO ? postURL : blogURL} />
-        {postSEO ? <meta property="og:type" content="article" /> : null}
+        {postSEO ? (
+          <meta property="og:type" content="article" />
+        ) : (
+          <meta property="og:type" content="website" />
+        )}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image} />
