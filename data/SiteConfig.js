@@ -37,6 +37,11 @@ const config = {
       iconClassName: "fa fa-twitter"
     },
     {
+      label: "Facebook",
+      url: "https://facebook.com/razorbacksrock",
+      iconClassName: "fa fa-facebook"
+    },
+    {
       label: "Email",
       url: "mailto:yo@baskeboler.xyz",
       iconClassName: "fa fa-envelope"

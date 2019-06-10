@@ -24,7 +24,7 @@ class Footer extends Component {
           <div className="rss">
             <Link to={url}>
               <Button flat secondary iconClassName="fa fa-rss">
-                Subscribirse
+                Subscribe
               </Button>
             </Link>
           </div>
