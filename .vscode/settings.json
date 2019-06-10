@@ -1,0 +1,8 @@
+{
+    "npm-intellisense.scanDevDependencies": true,
+    "javascript.format.enable": true,
+    // javascr
+    "npm-intellisense.importES6": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "tslint.jsEnable": true,
+}

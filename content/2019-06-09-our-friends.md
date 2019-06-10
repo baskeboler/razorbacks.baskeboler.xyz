@@ -8,11 +8,12 @@ tags:
   - friends
   - links
 ---
-* [Capitan Poon](https://capitainpoon.blogspot.com/)
-* [Motor City Madness](https://motorcitymadness.bandcamp.com/)
-* [Yesomar](https://facebook.com/yesomarock)
-* [Antibanda](http://antibanda.com)
-* [Motosierra](https://motosierra.bandcamp.com/)
-* [Black Actress](#)
-* [Bible of the Devil](#)
-* [DES MAN TELERS]()
+
+- [Capitan Poon](https://capitainpoon.blogspot.com/)
+- [Motor City Madness](https://motorcitymadness.bandcamp.com/)
+- [Yesomar](https://facebook.com/yesomarock)
+- [Antibanda](http://antibanda.com)
+- [Motosierra](https://motosierra.bandcamp.com/)
+- [Black Actress](#)
+- [Bible of the Devil](#)
+- [DES MAN TELERS]()

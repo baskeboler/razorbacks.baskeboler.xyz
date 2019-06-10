@@ -22,7 +22,7 @@ collections:
           label: "Category",
           name: "category",
           widget: "select",
-          options: ["razorbacks", "links", "albums"],
+          options: ["blog", "links", "albums"],
         }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
