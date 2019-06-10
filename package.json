@@ -46,6 +46,7 @@
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-masonry-component": "^6.2.1",
     "react-md": "^1.12.1",
     "react-share": "^2.4.0",
     "react-twitter-widgets": "^1.7.1",
