@@ -14,16 +14,17 @@ function link(
   text = ""
 ) {
   return {
-    title: title,
-    url: url,
+    title,
+    url,
     image: data => data[image].childImageSharp.fluid,
-    text: text
+    text
   };
 }
 
 class Index extends React.Component {
   render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const { location, data } = this.props;
+    const postEdges = data.allMarkdownRemark.edges;
     const cards = [
       link(
         "Albums",
@@ -43,9 +44,9 @@ class Index extends React.Component {
         "panchos",
         "Links to some of our friends."
       )
-    ].map(l => ({ ...l, image: l.image(this.props.data) }));
+    ].map(l => ({ ...l, image: l.image(data) }));
     return (
-      <Layout location={this.props.location} title="Home">
+      <Layout location={location} title="Home">
         <div className="index-container">
           <Helmet>
             <title>{config.siteTitle}</title>
@@ -66,7 +67,7 @@ export const pageQuery = graphql`
   query IndexQuery {
     deathrace2: file(relativePath: { eq: "deathrace2.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, fit: COVER) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -74,14 +75,14 @@ export const pageQuery = graphql`
 
     emi1: file(relativePath: { eq: "emi1.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, fit: COVER) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     panchos: file(relativePath: { eq: "panchos.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2000, fit: COVER) {
           ...GatsbyImageSharpFluid
         }
       }

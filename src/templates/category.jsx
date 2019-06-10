@@ -7,11 +7,12 @@ import config from "../../data/SiteConfig";
 
 export default class CategoryTemplate extends React.Component {
   render() {
-    const { category } = this.props.pageContext;
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const { location, pageContext, data } = this.props;
+    const { category } = pageContext;
+    const postEdges = data.allMarkdownRemark.edges;
     return (
       <Layout
-        location={this.props.location}
+        location={location}
         title={category.charAt(0).toUpperCase() + category.slice(1)}
       >
         <div className="category-container">

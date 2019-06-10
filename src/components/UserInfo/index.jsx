@@ -11,6 +11,7 @@ import "./UserInfo.scss";
 
 class UserInfo extends Component {
   render() {
+    const { config, expanded } = this.props;
     const {
       userAvatar,
       userName,
@@ -18,11 +19,8 @@ class UserInfo extends Component {
       userDescription,
       userLinks,
       userTwitter
-    } = this.props.config;
-    const { expanded } = this.props;
-    const userLinksElement = (
-      <UserLinks config={this.props.config} labeled={expanded} />
-    );
+    } = config;
+    const userLinksElement = <UserLinks config={config} labeled={expanded} />;
     if (!userAvatar && !userName && !userLocation && !userDescription) {
       if (userLinks) {
         return (

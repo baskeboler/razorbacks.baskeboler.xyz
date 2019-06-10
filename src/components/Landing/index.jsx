@@ -37,7 +37,8 @@ const useStyles = makeStyles(theme => ({
     paddingBottom: theme.spacing(8)
   },
   card: {
-    height: "100%",
+    height: 300,
+    // height: "100%",
     display: "flex",
     flexDirection: "column"
   },
@@ -86,7 +87,7 @@ const Landing = props => {
           {cards.map((card, i) => (
             <Grid item key={`card-${i}`} xs={12} sm={6} md={4}>
               <Link to={card.url}>
-                <Card className={classes.card}>
+                <Card raised={false} className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
                     image="ignoreme"

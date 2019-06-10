@@ -6,7 +6,7 @@ const config = {
   siteUrl: "https://razorbacks.baskeboler.xyz", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription: "kickass rock n roll band from uruguay", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "kickass rock n roll band from montevideo, uruguay", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   siteGATrackingID: "UA-141731303-1", // Tracking code ID for google analytics.

@@ -4,9 +4,9 @@ import Helmet from "react-helmet";
 import { Paper, Container } from "@material-ui/core";
 import Img from "gatsby-image";
 import Masonry from "react-masonry-component";
-import SEO from "../components/SEO";
-import Layout from "../layout";
-import config from "../../data/SiteConfig";
+import SEO from "../SEO";
+import Layout from "../../layout";
+import config from "../../../data/SiteConfig";
 
 const Gallery = props => {
   const { location, data } = props;
@@ -60,26 +60,3 @@ const Gallery = props => {
 };
 
 export default Gallery;
-
-export const pageQuery = graphql`
-  query {
-    allFile(
-      filter: {
-        relativeDirectory: { eq: "" }
-        sourceInstanceName: { eq: "assets" }
-      }
-    ) {
-      edges {
-        node {
-          id
-          childImageSharp {
-            id
-            fixed(fit: COVER) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
-      }
-    }
-  }
-`;
