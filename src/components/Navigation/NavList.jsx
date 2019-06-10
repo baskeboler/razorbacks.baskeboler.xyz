@@ -17,6 +17,12 @@ function GetNavList(config) {
       to: "/categories/albums"
     },
     {
+      primaryText: "Gallery",
+      leftIcon: <FontIcon forceSize>photo_album</FontIcon>,
+      component: Link,
+      to: "/gallery"
+    },
+    {
       divider: true
     }
   ];

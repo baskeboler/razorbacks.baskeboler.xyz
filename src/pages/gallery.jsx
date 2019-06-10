@@ -35,7 +35,7 @@ const Gallery = props => {
         style={{ margin: 0, padding: 0 }}
         className="image-element-class"
       >
-        <Img style={{ margin: 0, padding: 0 }} fixed={im} />
+        <Img style={{ margin: 0, padding: 0 }} fadeIn={true} fixed={im} />
       </li>
       //   <GridListTile
       //     key={im}
