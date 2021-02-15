@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "Death Race", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Death Race", // Alternative site title for SEO.
   siteLogo: "/assets/deathrace.jpg", // Logo used for SEO and manifest.
-  siteUrl: "https://razorbacks.baskeboler.xyz", // Domain of your website without pathPrefix.
+  siteUrl: "https://razorbacks.netlify.app", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "kickass rock n roll band from montevideo, uruguay", // Website description used for RSS feeds/meta description tag.
@@ -47,7 +47,7 @@ const config = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2019. baskeboler", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2021. baskeboler", // Copyright string for the footer of the website and RSS feed.
   bingMetaTagName: "msvalidate.01",
   bingAuthCode: "A3598FA53379C447FA39C5C6AEBDF447"
 };
