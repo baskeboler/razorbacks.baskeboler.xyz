@@ -18,7 +18,8 @@ const config = {
   userEmail: "baskeboler@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "baskeboler", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Montevideo, Uruguay", // User location to display in the author segment.
-  userAvatar: "https://en.gravatar.com/userimage/94650559/c3e15ffb38d32ecb456e3abf4b79321e?size=200", // User avatar to display in the author segment.
+  userAvatar:
+    "https://en.gravatar.com/userimage/94650559/c3e15ffb38d32ecb456e3abf4b79321e?size=200", // User avatar to display in the author segment.
   userDescription: `Hi there, I am Victor, people call me basket, I played drums in this band and loved every minute of it.
   Razorbacks is no longer active and it is very unlikely that we return in the near future. I work as a software developer and in order 
   to stay up to date with new tech trends I build sites to try out new nerdy shit. This is my first try with gatsby.js, netlify and netlify-cms 
@@ -26,30 +27,38 @@ const config = {
   as well as whatever else that goes through my mind. I never had a blog so this may end up being my personal blog disguised as a band page lol.
   Anyways, thats enough text, I was feeling dirty leaving the default template user description. kthxbye.`, // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
-  userLinks: [{
-      label: "GitHub",
-      url: "https://github.com/baskeboler",
-      iconClassName: "fa fa-github"
+  userLinks: [
+    {
+      label: "Spotify",
+      url:
+        "https://open.spotify.com/artist/3DB0zKxilwTOIzCkhE67Bg?si=xzl2t9XUSEKEo1wW1PHRgQ",
+      iconClassName: "fa fa-spotify",
     },
     {
       label: "Twitter",
       url: "https://twitter.com/baskeboler",
-      iconClassName: "fa fa-twitter"
+      iconClassName: "fa fa-twitter",
     },
     {
       label: "Facebook",
       url: "https://facebook.com/razorbacksrock",
-      iconClassName: "fa fa-facebook"
+      iconClassName: "fa fa-facebook",
     },
+
     {
       label: "Email",
       url: "mailto:yo@baskeboler.xyz",
-      iconClassName: "fa fa-envelope"
-    }
+      iconClassName: "fa fa-envelope",
+    },
+    {
+      label: "GitHub",
+      url: "https://github.com/baskeboler",
+      iconClassName: "fa fa-github",
+    },
   ],
   copyright: "Copyright © 2021. baskeboler", // Copyright string for the footer of the website and RSS feed.
   bingMetaTagName: "msvalidate.01",
-  bingAuthCode: "A3598FA53379C447FA39C5C6AEBDF447"
+  bingAuthCode: "A3598FA53379C447FA39C5C6AEBDF447",
 };
 
 // Validate
